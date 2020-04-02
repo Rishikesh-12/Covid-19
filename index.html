@@ -10,7 +10,7 @@ ul.sidenav {
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: #dfdbdb;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -60,15 +60,39 @@ div.content {
     float: none;
   }
 }
+
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    background-color: yellowgreen;
+    color: black;
+    padding: 5px 0;
+
+}
+footer {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+
+footer p {
+    padding: 15px;
+    opacity: 0.8;
+}
+
 </style>
 </head>
 <body>
 
 <ul class="sidenav">
-  <li><a class="active" href="#home">Home</a></li>
+    <li><a class="active" href="">Home</a></li> 
+  <li><a href="#home">Live Counter</a></li>
   <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Prevention</a></li>
+  <li><a href="#about">Donate</a></li>
+  <li><a href="">Helpline</a></li>
+  <li><a href="">About site</a></li>
 </ul>
 
 <div class="content">
@@ -77,6 +101,18 @@ div.content {
   <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
   <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
   <h3>Resize the browser window to see the effect.</h3>
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p>Design by: <a href="#about" target=
+                "_blank">Rishikesh Mishra</a><br>
+                <!-- <a href=""target="_blank"> -->
+                <i class="fa fa-creative-commons"></i>
+                2020 Copyright. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>        
 </div>
 
 </body>
