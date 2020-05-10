@@ -13,4 +13,4 @@ Inline-style:
 * Prevention Details
 * How to donate
 * Helpline numbers
-* And a small site details and credits page.
+* And a details and credits page.
